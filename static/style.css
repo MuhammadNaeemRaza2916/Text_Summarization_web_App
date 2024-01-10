@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333 !important;
+    color: #fff !important;
+    padding: .5rem;
+
+}
+
+.card,
+textarea {
+    background-color: #333333 !important;
+    color: #fff !important;
+    margin-bottom: 2rem;
+}
+
+.submitBtn {
+    margin-top: 2rem !important;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.mainContainer div {
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media screen and (max-width: 576px) {
+    .mainContainer {
+        flex-wrap: wrap;
+
+    }
+
+    .mainContainer div {
+        width: 100%;
+    }
+}
